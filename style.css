@@ -1,0 +1,54 @@
+body, textarea{
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+nav {
+    display: inline-flex;
+    background-color: #1d2021;
+    height: 2.5rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+textarea{
+    name: "command";
+    resize: none;
+    outline: none;    
+    border: 1px white solid;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+span {
+ margin: 0 5px 0 5px;
+}
+
+
+.green, .yellow, .red {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 12px;
+}
+
+.green{
+    background-color: #98971a;
+}
+
+.red{
+    background-color: #cc241d;
+}
+
+.yellow{
+    background-color: #d79921;
+}
+
+
+
+.title {
+    text-align: center;
+    color: #fbf1c7;
+    width: 95vw;
+    margin-top: 8px;
+}
